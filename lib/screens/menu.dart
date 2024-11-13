@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget {
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       // Masukkan drawer sebagai parameter nilai drawer dari widget Scaffold
-        drawer: const LeftDrawer(),
+      drawer: const LeftDrawer(),
 
       // Body halaman dengan padding di sekelilingnya.
       body: Padding(
